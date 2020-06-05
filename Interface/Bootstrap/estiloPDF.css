@@ -1,0 +1,78 @@
+
+
+.info{
+    font-size: 42pt;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+.cabecalho{
+    font-size: 32pt;
+    padding-bottom: 2px;
+    padding-left: 10px;
+
+}
+.subcabecalho{
+    font-size: 22pt;
+    padding-bottom: 2px;
+    padding-left: 10px;
+
+}
+.corpo{
+    font-size: 22pt;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.SUBcorpo{
+    font-size: 28pt;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.data{
+    font-size: 42pt;
+    width: 150px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.endereco{
+    font-size: 42pt;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+.tbltitle{
+    border-bottom: 1px solid black;
+    border-top:  1px solid black;
+
+    padding-left: 10px;
+    font-size: 42pt;
+}
+
+.td{
+    font-size: 30pt;
+    padding-left: 10px;
+}
+
+.vt{
+    padding-left: 5px;
+    font-size: 42pt;
+}
+
+.n{
+    font-weight: bold;
+}
+
+#d{
+    font-size: 30pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+#table{
+    width: 100%;
+}
+

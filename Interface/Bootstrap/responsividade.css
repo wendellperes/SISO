@@ -1,0 +1,1035 @@
+.modalT{
+    background: rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+.btn-primary{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.border{
+    margin: 0px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.dropdown-Lucas{
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 4px;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.dropdown-menu li{
+    margin-bottom: 4px;
+}
+#global-status{
+    text-align: center;
+}
+@media(min-width: 350px){
+    .dropdown .dropdown-menu{
+        margin-left: 39%;
+    }
+}
+@media(min-width: 700px){
+    .dropdown .dropdown-menu{
+        margin-left: 275px;
+    }
+}
+@media(min-width: 992px){
+    .dropdown .dropdown-menu{
+        margin-left: 140px;
+    }
+}
+@media(min-width: 1200px){
+    .dropdown .dropdown-menu{
+        margin-left: 180px;
+    }
+}
+.pedidos{
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 8px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,.3);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.pedidos-title{
+    background: rgba(129,47,153,1);
+    color: #fff;
+    box-shadow: 1px 1px 20px rgba(0,0,0,.5);
+    margin-top: -20px;
+    border-radius: 5px;
+}
+.pedidos-title ul{
+    list-style: none;
+    text-align: right;
+    padding: 13px;
+}
+.pedidos-title ul li{
+    display: inline-block;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid rgba(129,47,153,1);
+}
+.pedidos-title ul li:hover{
+    border-bottom:2px solid #fff;
+}
+.pedidos-title ul li a{
+    color: #FFF;
+    text-transform: uppercase;
+}
+.dscc{
+    padding: 20px;
+    text-align: left;
+    font-size: 14pt;
+}
+.select{
+    box-shadow: 1px 1px 20px rgba(0,0,0,.5);
+}
+
+#palavra-cardaprio{
+    margin-top: 22px;
+    font-size:20pt;
+    font-weight: bold;
+    color: #440000;
+}
+.cardapio{
+    margin-top: 110px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    box-shadow: 1px 1px 45px rgba(0,0,0,.5);
+    padding-bottom: 10px;
+}    
+.title-cardapio{
+    margin-top: -80px;
+    height: 160px;
+    width: 160px;
+    box-shadow: 1px 1px 30px rgba(0,0,0,.6);
+    border-radius: 15px;
+}
+.title-cardapio img{
+    height: 160px;
+    width: 160px;
+    border: 4px dashed rgba(0,0,0,.2);
+    border-radius: 15px;
+}
+.categorias{
+    background: rgba(0,0,0,.07);
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.categorias ul{
+    list-style: none;
+}
+.categorias ul li{
+    margin: 3px;
+    display: inline-block;
+}
+.categorias ul li a{
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #000;
+}
+.categorias ul li a:focus{
+    color: #fff;
+    background: rgba(88,40,108,1);
+}
+.categorias ul li a:hover{
+    color: #fff;
+    background: rgba(88,40,108,1);
+}
+.corpo-cardapio{
+    padding: 2px;
+}
+.diasFuncionamento{
+    background: rgba(0,0,0,.02);
+    border:3px dashed rgba(88,40,108,.3);
+    border-radius: 20px;
+    margin-top: 35px;
+    box-shadow: 1px 1px 15px rgba(88,40,108,.2);
+}
+.diasFuncionamento p{
+    background: rgba(88,40,108,.9);
+    width: 150px;
+    box-shadow: 1px 1px 5px rgba(88,40,108,.3);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    margin-bottom: 9px;
+    border-radius: 10px;
+    color: #fff;
+}
+.diasFuncionamento ul{
+    padding: 5px;
+    margin-bottom: 0;
+    list-style: none;
+}
+.diasFuncionamento ul li{
+    display: inline-block;
+    background: rgba(88,40,108,.9);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 9px;
+}
+#taxaE{
+    margin: 0;
+    margin-top: -13px;
+    text-align: center;
+    font-size: 8pt;
+    color: green;
+}
+/* responsividade */
+
+/* Item de produto */
+.listaProdutos{
+    position: relative;
+    background: rgba(174, 168, 211,0.1);
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border: 6px solid #fff;
+    border-bottom: 5px solid #913D88;
+}.listaProdutos:hover{
+    background-color: rgba(174, 168, 211,0.15); 
+}
+.img-produto{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(129,47,153,.2);
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+}
+
+.contador{
+    position: absolute;
+    background: rgba(129,47,153,.3);
+    border: 1px solid rgba(129,47,153,.3);
+    border-radius: 50%;
+    color: #fff;
+    opacity: 0;
+}
+
+.np{
+    color: rgba(129,47,153,.8);
+    font-weight: bold;
+    margin: -4px;
+}
+.dp{
+    font-size: 10pt;
+    color: black;
+    margin: 0;
+    text-align: justify;
+}
+.valor-produto{
+    font-weight: bold;
+    color: #913D88;
+}
+
+
+@media(min-width: 268px){
+    .listaProdutos{
+        height: 160px;
+    }
+    .div-img-produto{
+        width: 60px;
+        height: 60px;
+        margin-left: -8px;
+    }
+    .texto-produto{
+        height: 130px;
+        width: 62%;
+        margin-top: -60px;
+        margin-left: 50px;
+        padding-left: 10px;
+        text-align: left;
+    }
+    .valor-produto{
+        height: 130px;
+        width: 35px;
+        margin-top: -130px;
+        margin-left: 84.5%;
+        padding-top: 35px;
+        font-size: 9pt;
+    }
+    .dp{
+        font-size: 8pt;
+    }
+    .contador{
+        height: 60px;
+        width: 60px;
+        padding-top: 20px;
+        margin-top: -130px;
+        margin-left: -8px;
+        font-size: 25pt;
+        transition: 1s;
+    } 
+}
+
+@media(min-width: 368px){
+    .listaProdutos{
+        height: 160px;
+    }
+    .div-img-produto{
+        width: 70px;
+        height: 70px;
+        margin-left: 0;
+    }
+    .texto-produto{
+        height: 130px;
+        width: 60%;
+        margin-top: -70px;
+        margin-left: 68px;
+        padding-left: 10px;
+        text-align: left;
+    }
+    .dp{
+        font-size: 9pt;
+    }
+    .valor-produto{
+        height: 130px;
+        width: 56px;
+        margin-top: -130px;
+        margin-left: 84.5%;
+        padding-top: 35px;
+        font-size: 9pt;
+    }
+    .contador{
+        height: 70px;
+        width: 70px;
+        padding-top: 24px;
+        margin-top: -130px;
+        margin-left: 0;
+        font-size: 35pt;
+        transition: 1s;
+    }
+}
+
+@media(min-width: 468px){
+    .listaProdutos{
+        height: 130px;
+    }
+    .div-img-produto{
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
+    }
+    .texto-produto{
+        height: 100px;
+        width: 60%;
+        margin-top: -100px;
+        margin-left: 100px;
+        padding-left: 10px;
+        text-align: left;
+    }
+    .dp{
+        font-size: 9pt;
+    }
+    .valor-produto{
+        height: 100px;
+        width: 65px;
+        margin-top: -100px;
+        margin-left: 86%;
+        padding-top: 35px;
+    }
+    .contador{
+        height: 100px;
+        width: 100px;
+        padding-top: 40px;
+        margin-top: -100px;
+        margin-left: 0;
+        font-size: 40pt;
+        transition: 1s;
+    }
+}
+
+@media (min-width: 568px) {
+    .listaProdutos{
+        height: 130px;
+    }
+    .div-img-produto{
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
+    }
+    .texto-produto{
+        height: 100px;
+        width: 67%;
+        margin-top: -100px;
+        margin-left: 100px;
+        padding-left: 10px;
+        text-align: left;
+    }
+    .valor-produto{
+        height: 100px;
+        width: 75px;
+        margin-top: -100px;
+        margin-left: 87%;
+        padding-top: 35px;
+    }
+    .dp{
+        font-size: 10pt;
+    }
+    .contador{
+        height: 100px;
+        width: 100px;
+        padding-top: 40px;
+        margin-top: -100px;
+        margin-left: 0;
+        font-size: 40pt;
+        transition: 1s;
+    }
+}
+@media (min-width: 668px) {
+    .listaProdutos{
+        height: 130px;
+    }
+    .div-img-produto{
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
+    }
+    .texto-produto{
+        height: 100px;
+        width: 70.5%;
+        margin-top: -100px;
+        margin-left: 100px;
+        padding-left: 10px;
+        text-align: left;
+    }
+    .dp{
+        font-size: 10pt;
+    }
+    .valor-produto{
+        height: 100px;
+        width: 85px;
+        margin-top: -100px;
+        margin-left: 87%;
+        padding-top: 35px;
+    }
+    .contador{
+        height: 100px;
+        width: 100px;
+        padding-top: 40px;
+        margin-top: -100px;
+        margin-left: 0;
+        font-size: 40pt;
+        transition: 1s;
+    }
+}
+@media (min-width: 768px) { 
+    .listaProdutos{
+        height: 130px;
+    }
+    .div-img-produto{
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
+    }
+    .texto-produto{
+        height: 100px;
+        width: 500px;
+        margin-top: -100px;
+        margin-left: 100px;
+        padding-left: 10px;
+        text-align: left;
+    }
+    .dp{
+        font-size: 10pt;
+    }
+    .valor-produto{
+        height: 100px;
+        width: 85px;
+        margin-top: -100px;
+        margin-left: 600px;
+        padding-top: 35px;
+    }
+    .contador{
+        height: 100px;
+        width: 100px;
+        padding-top: 40px;
+        margin-top: -100px;
+        margin-left: 0;
+        font-size: 40pt;
+        transition: 1s;
+    }
+}
+@media (min-width: 992px) {
+    .listaProdutos{
+        height: 150px;
+    }
+    .div-img-produto{
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
+    }
+    .texto-produto{
+        height: 100px;
+        width: 260px;
+        margin-top: -100px;
+        margin-left: 100px;
+        padding-left: 10px;
+        text-align: left;
+    }
+    .dp{
+        font-size: 10pt;
+    }
+    .valor-produto{
+        height: 100px;
+        width: 85px;
+        margin-top: -100px;
+        margin-left: 360px;
+        padding-top: 35px;
+    }
+    .contador{
+        height: 100px;
+        width: 100px;
+        padding-top: 40px;
+        margin-top: -100px;
+        margin-left: 0;
+        font-size: 40pt;
+        transition: 1s;
+    }
+}
+@media (min-width: 1200px) {
+    .listaProdutos{
+        height: 130px;
+    }
+    .div-img-produto{
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
+    }
+    .texto-produto{
+        height: 100px;
+        width: 360px;
+        margin-top: -100px;
+        margin-left: 100px;
+        padding-left: 10px;
+        text-align: left;
+    }
+    .dp{
+        font-size: 10pt;
+    }
+    .valor-produto{
+        height: 100px;
+        width: 85px;
+        margin-top: -100px;
+        margin-left: 460px;
+        padding-top: 35px;
+    }
+    .contador{
+        height: 100px;
+        width: 100px;
+        padding-top: 40px;
+        margin-top: -100px;
+        margin-left: 0;
+        font-size: 40pt;
+        transition: 1s;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* item de restaurante */
+.listaRestau{
+    position: relative;
+    height: 130px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border: 6px solid #fff;
+    border-bottom: 5px solid #913D88; 
+    background-color: rgba(174, 168, 211,0.1); 
+}.listaRestau:hover{
+    background-color: rgba(174, 168, 211,0.15); 
+}
+
+
+.img-restaurante{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.08);
+}
+.img-restaurante:hover{
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+    transition: .2s;
+}
+
+@media(min-width: 268px){
+    .global-conteudo{
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .listaRestau{
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .div-img-restaurante{
+        height: 70px;
+        width: 70px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .restaurante-texto{
+        height: 100px;
+        padding-left: 13px;
+        margin-top: -70px;
+        margin-left: 70px;
+        text-align: justify;
+    }
+    .nome-restaurante{
+        margin: 0;
+        font-size: 9pt;
+        padding-left: 5px;
+        font-weight: bold;
+        color: #6C7A89;
+    }
+    .slogan-restaurante{
+        margin: 0;
+        padding-right: 10px;
+        font-size: 10px;
+        text-align: justify;
+        color: rgba(0,0,0,.5);
+    }
+    .hr-funcionamento{
+        background: rgba(88,40,108,.5);
+        width: 100px;
+        padding: 1px;
+        margin-top: -9px;
+        margin-left: 50%;
+        border-radius: 20px;
+        border: 1px solid rgba(88,40,108,.5);
+    }
+    .hr-funcionamento-texto{
+        margin: -6px;
+        font-size: 8px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;    
+    }
+}
+
+
+@media(min-width: 368px){
+    .global-conteudo{
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .listaRestau{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .div-img-restaurante{
+        height: 70px;
+        width: 70px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .restaurante-texto{
+        height: 100px;
+        padding-left: 13px;
+        margin-top: -70px;
+        margin-left: 70px;
+        text-align: justify;
+    }
+    .nome-restaurante{
+        margin: 0;
+        font-size: 9pt;
+        padding-left: 5px;
+        font-weight: bold;
+        color: #6C7A89;
+    }
+    .slogan-restaurante{
+        margin: 0;
+        padding-right: 10px;
+        font-size: 10px;
+        text-align: justify;
+        color: rgba(0,0,0,.5);
+    }
+    .hr-funcionamento{
+        background: rgba(88,40,108,.5);
+        width: 100px;
+        padding: 1px;
+        margin-top: -9px;
+        margin-left: 60%;
+        border-radius: 20px;
+        border: 1px solid rgba(88,40,108,.5);
+    }
+    .hr-funcionamento-texto{
+        margin: -6px;
+        font-size: 8px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;    
+    }
+}
+
+
+@media(min-width: 468px){
+
+    .global-conteudo{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .listaRestau{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .div-img-restaurante{
+        height: 100px;
+        width: 100px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .restaurante-texto{
+        height: 100px;
+        padding-left: 13px;
+        margin-top: -100px;
+        margin-left: 100px;
+        text-align: justify;
+    }
+    .nome-restaurante{
+        margin: 0;
+        font-size: 11pt;
+        padding-left: 5px;
+        font-weight: bold;
+        color: #6C7A89;
+    }
+    .slogan-restaurante{
+        margin: 0;
+        padding-right: 10px;
+        font-size: 10.5px;
+        text-align: justify;
+        color: rgba(0,0,0,.5);
+    }
+    .hr-funcionamento{
+        background: rgba(88,40,108,.5);
+        width: 130px;
+        height: 23.2px;
+        border: 1px solid rgba(88,40,108,.5);
+        padding: 0;
+        margin-top: -22px;
+        margin-left: 64%;
+        border-radius: 20px;
+    }
+    .hr-funcionamento-texto{
+        margin: 0;
+        font-size: 9px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;    
+    }
+}
+
+@media(min-width: 568px){
+
+    .global-conteudo{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .listaRestau{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .div-img-restaurante{
+        height: 100px;
+        width: 100px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .restaurante-texto{
+        height: 100px;
+        padding-left: 13px;
+        margin-top: -100px;
+        margin-left: 100px;
+        text-align: justify;
+    }
+    .nome-restaurante{
+        margin: 0;
+        font-size: 11pt;
+        padding-left: 5px;
+        font-weight: bold;
+        color: #6C7A89;
+    }
+    .slogan-restaurante{
+        margin: 0;
+        padding-right: 10px;
+        font-size: 10.5px;
+        text-align: justify;
+        color: rgba(0,0,0,.5);
+    }
+    .hr-funcionamento{
+        background: rgba(88,40,108,.5);
+        width: 130px;
+        height: 23.2px;
+        border: 1px solid rgba(88,40,108,.5);
+        padding: 0;
+        margin-top: -22px;
+        margin-left: 72%;
+        border-radius: 20px;
+    }
+    .hr-funcionamento-texto{
+        margin: 0;
+        font-size: 9px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;    
+    }
+}
+
+@media(min-width: 668px){
+
+    .global-conteudo{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .listaRestau{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .div-img-restaurante{
+        height: 100px;
+        width: 100px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .restaurante-texto{
+        height: 100px;
+        padding-left: 13px;
+        margin-top: -100px;
+        margin-left: 100px;
+        text-align: justify;
+    }
+    .nome-restaurante{
+        margin: 0;
+        font-size: 11pt;
+        padding-left: 5px;
+        font-weight: bold;
+        color: #6C7A89;
+    }
+    .slogan-restaurante{
+        margin: 0;
+        padding-right: 10px;
+        font-size: 12px;
+        text-align: justify;
+        color: rgba(0,0,0,.5);
+    }
+    .hr-funcionamento{
+        background: rgba(88,40,108,.5);
+        width: 130px;
+        height: 23.2px;
+        border: 1px solid rgba(88,40,108,.5);
+        padding: 0;
+        margin-top: -22px;
+        margin-left: 77%;
+        border-radius: 20px;
+    }
+    .hr-funcionamento-texto{
+        margin: 0;
+        font-size: 9px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;    
+    }
+}
+
+@media(min-width: 768px){
+    .global-conteudo{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .listaRestau{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    .div-img-restaurante{
+        height: 100px;
+        width: 100px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .restaurante-texto{
+        height: 100px;
+        padding-left: 13px;
+        margin-top: -100px;
+        margin-left: 100px;
+        text-align: justify;
+    }
+    .nome-restaurante{
+        margin: 0;
+        font-size: 11pt;
+        padding-left: 5px;
+        font-weight: bold;
+        color: #6C7A89;
+    }
+    .slogan-restaurante{
+        margin: 0;
+        padding-right: 10px;
+        font-size: 14px;
+        text-align: justify;
+        color: rgba(0,0,0,.5);
+    }
+    .hr-funcionamento{
+        background: rgba(88,40,108,.5);
+        width: 130px;
+        height: 23.2px;
+        border: 1px solid rgba(88,40,108,.5);
+        padding: 0;
+        margin-top: -22px;
+        margin-left: 80%;
+        border-radius: 20px;
+    }
+    .hr-funcionamento-texto{
+        margin: 0;
+        font-size: 9px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;    
+    }
+}
+
+@media(min-width: 992px){
+
+    .global-conteudo{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .listaRestau{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .div-img-restaurante{
+        height: 100px;
+        width: 100px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .restaurante-texto{
+        height: 100px;
+        padding-left: 13px;
+        margin-top: -100px;
+        margin-left: 100px;
+        text-align: justify;
+    }
+    .nome-restaurante{
+        margin: 0;
+        font-size: 11pt;
+        padding-left: 5px;
+        font-weight: bold;
+        color: #6C7A89;
+    }
+    .slogan-restaurante{
+        margin: 0;
+        padding-right: 10px;
+        font-size: 11px;
+        text-align: justify;
+        color: rgba(0,0,0,.5);
+    }
+    .hr-funcionamento{
+        background: rgba(88,40,108,.5);
+        width: 130px;
+        height: 23.2px;
+        border: 1px solid rgba(88,40,108,.5);
+        padding: 0;
+        margin-top: -22px;
+        margin-left: 285px;
+        border-radius: 20px;
+    }
+    .hr-funcionamento-texto{
+        margin: 0;
+        font-size: 9px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;    
+    }
+}
+@media(min-width: 1200px){
+
+    .global-conteudo{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .listaRestau{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .div-img-restaurante{
+        height: 100px;
+        width: 100px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .restaurante-texto{
+        height: 100px;
+        padding-left: 13px;
+        margin-top: -100px;
+        margin-left: 100px;
+        text-align: justify;
+    }
+    .nome-restaurante{
+        margin: 0;
+        font-size: 11pt;
+        padding-left: 5px;
+        font-weight: bold;
+        color: #6C7A89;
+    }
+    .slogan-restaurante{
+        margin: 0;
+        padding-right: 10px;
+        font-size: 12px;
+        text-align: justify;
+        color: rgba(0,0,0,.5);
+    }
+    .hr-funcionamento{
+        background: rgba(88,40,108,.5);
+        width: 130px;
+        height: 23.2px;
+        border: 1px solid rgba(88,40,108,.5);
+        padding: 0;
+        margin-top: -22px;
+        margin-left: 385px;
+        border-radius: 20px;
+    }
+    .hr-funcionamento-texto{
+        margin: 0;
+        font-size: 9px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;    
+    }
+
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body {
+	background-color: #FFF;
+	font-family: Calibri, Verdana, Arial;
+	font-size: 16px;
+}
+
+a:link {
+	color: #999;
+}
+a:visited {
+	color: #999;
+}
+a:hover {
+	color: #999;
+	font-weight: bold;
+}
+a:active {
+	color: #999;
+}
+
+h1 {
+	font-family: Calibri, Verdana, Arial;
+	color:#069;
+}
+
+input {
+	padding: 10px;
+	font-family: Calibri, Verdana, Arial;
+	font-size: 15px;
+	font-weight: bold;
+	color: #666;
+	border:solid 1px #333;
+}
+
+#conteudo {
+	width: 100%;
+	text-align:justify;
+}
